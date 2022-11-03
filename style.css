@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 500px;
-    height: 550px;
+    height: 600px;
     margin: auto;
     border: solid;
     margin-top: 3vw;
@@ -20,11 +20,17 @@ body{
     border-radius: 5%;
 }
 
+.container textarea{
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .selecao{
     
     margin: 5px;
     padding: 5px;
     border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -39,9 +45,22 @@ body{
 
 .botoes button{
     padding: 6px;
-    background-color: cornflowerblue;
+    background-color: gold;
+    border: solid;
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.botoes button:hover {
+    background-color: goldenrod;
+}
+
 
 p{
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
