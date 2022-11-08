@@ -12,7 +12,7 @@
 
 <div class="container">
 
-        <h1>Decodificador do Marcos</h1>
+        <h1>Codificador do Marcos</h1>
         <br>
             
         <p>Insira o conteúdo</p>
@@ -22,15 +22,25 @@
 
     <div class="selecao">
 
-        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"> Cifra de César
-        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op2"> Base 64
+        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="cifra" onclick="surgirIncremento()"> Cifra de César
+        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="base64" onclick="sumirIncremento()"> Base 64
+
+    </div>
+
+    <nav>
+        
+    </nav>
+
+    <div class="codeOrdecode">
+
+        <INPUT TYPE="radio" NAME="codificar" VALUE="op1" id="codificar" onclick="mudandoNomeBotao2()"> Codificar
+        <INPUT TYPE="radio" NAME="codificar" VALUE="op2" id="decodificar" onclick="mudandoNomeBotao()"> Decodificar
 
     </div>
 
     <div class="botoes">   
 
-        <button id="codificar" onclick="">CODIFICAR</button>
-        <button id="decodificar" onclick="">DECODIFICAR</button>
+        <button id="codificar" onclick=""> CODIFICAR MENSAGEM! </button>
 
     </div>  
             

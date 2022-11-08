@@ -1,10 +1,17 @@
+@font-face {
+    font-family: "fontetech";
+    src: url(../Fontes/ShareTechMono-Regular.ttf);
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: black;
+    background-image: url(../Images/background\ tech\ pixelart.gif);
+    background-size: 100vw;
 }
 
 .container{
@@ -12,17 +19,20 @@ body{
     flex-direction: column;
     align-items: center;
     width: 500px;
-    height: 600px;
+    height: 650px;
+    padding: 10px;
     margin: auto;
-    border: solid;
     margin-top: 3vw;
-    background-color: rgb(167, 164, 161);
+    background-color: rgba(107, 74, 116, 0.851);
     border-radius: 5%;
+    color: rgb(230, 230, 230); text-shadow: black 0.1em 0.1em 0.5em;
+   
+
 }
 
 .container textarea{
     resize: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fontetech;
 }
 
 .selecao{
@@ -30,9 +40,19 @@ body{
     margin: 5px;
     padding: 5px;
     border-radius: 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fontetech;
     
 }
+
+.codeOrdecode{
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    font-family: fontetech;
+    
+}
+
 
 .botoes{
     margin: 10px;
@@ -48,7 +68,7 @@ body{
     background-color: gold;
     border: solid;
     border-radius: 10%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fontetech;
 }
 
 .botoes button:hover {
@@ -58,9 +78,9 @@ body{
 
 p{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fontetech;
 }
 
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fontetech;
 }
