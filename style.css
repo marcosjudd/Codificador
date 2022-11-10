@@ -1,6 +1,6 @@
 @font-face {
     font-family: "fontetech";
-    src: url(..\Fontes\ShareTechMono-Regular.ttf);
+    src: url(../Fontes/ShareTechMono-Regular.ttf);
     font-style: normal;
 }
 
@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url(Codificador\Images\background\ tech\ pixelart.gif);
+    background-image: url(../Images/background/ tech/ pixelart.gif);
     background-size: 100vw;
 }
 
